@@ -1,0 +1,11 @@
+Welcome Aqeel Shahzad
+
+Python is a general-purpose programming language that is used for a wide variety of applications, including web development, data science, machine learning, and artificial intelligence. It is a popular language for beginners because it is relatively easy to learn and has a large and active community.
+
+Here are some of the key features of Python:
+
+* Easy to learn and use
+* Powerful and versatile
+* Open source and free to use
+* Large and active community
+* Wide range of libraries and frameworks available

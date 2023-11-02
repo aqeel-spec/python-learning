@@ -1,0 +1,4 @@
+I'm learning file and error handling in this chapter.
+In C we can read and write data.
+I'm learning file and error handling in this chapter.
+In Python we can read and write data.
