@@ -1,0 +1,29 @@
+Method,Description,Example
+Save and Load Array Data,,
+save(),Save a NumPy array to a binary file.,"np.save(""my_array.npy"", my_array)"
+load(),Load a NumPy array from a binary file.,"my_array = np.load(""my_array.npy"")"
+savetxt(),Save a NumPy array to a text file.,"np.savetxt(""my_array.txt"", my_array)"
+loadtxt(),Load a NumPy array from a text file.,"my_array = np.loadtxt(""my_array.txt"")"
+Others,,
+copy(),Create a new copy of a NumPy array.,my_array_copy = np.copy(my_array)
+view(),Create a new view of a NumPy array.,my_array_view = np.view(my_array)
+ravel(),Flatten a NumPy array into a one-dimensional array.,my_array_flattened = np.ravel(my_array)
+reshape(),Reshape a NumPy array into a new shape.,"my_array_reshaped = np.reshape(my_array, (3, 3))"
+resize(),Resize a NumPy array to a new shape.,"my_array.resize((3, 3))"
+squeeze(),Remove any axes of a NumPy array that have only one element.,my_array_squeezed = np.squeeze(my_array)
+swapaxes(),Swap two axes of a NumPy array.,"my_array_swapped = np.swapaxes(my_array, 0, 1)"
+take(),Extract elements from a NumPy array at given indices.,"my_array_subset = np.take(my_array, [0, 2, 4])"
+transpose(),Transpose a NumPy array.,my_array_transposed = np.transpose(my_array)
+sort(),Sort the elements of a NumPy array in ascending order.,my_array_sorted = np.sort(my_array)
+argsort(),Return the indices of the elements of a NumPy array sorted in ascending order.,my_array_sorted_indices = np.argsort(my_array)
+argmin(),Return the index of the smallest element in a NumPy array.,my_array_min_index = np.argmin(my_array)
+argmax(),Return the index of the largest element in a NumPy array.,my_array_max_index = np.argmax(my_array)
+searchsorted(),Find the indices at which the elements of a NumPy array would be inserted into another NumPy array that is sorted in ascending order.,"my_array_search_indices = np.searchsorted(my_array_sorted, my_array)"
+clip(),Limit the elements of a NumPy array to a given range.,"my_array_clipped = np.clip(my_array, 0, 10)"
+round(),Round the elements of a NumPy array to a given number of decimals.,"my_array_rounded = np.round(my_array, 2)"
+ceil(),Round the elements of a NumPy array up to the nearest integer.,my_array_ceiled = np.ceil(my_array)
+floor(),Round the elements of a NumPy array down to the nearest integer.,my_array_floored = np.floor(my_array)
+around(),Round the elements of a NumPy array to the nearest integer.,my_array_rounded = np.around(my_array)
+isfinite(),Return a NumPy array of booleans indicating whether the elements of the input NumPy array are finite.,my_array_isfinite = np.isfinite(my_array)
+isnan(),Return a NumPy array of booleans indicating whether the elements of the input NumPy array are NaN.,my_array_isnan = np.isnan(my_array)
+isinf(),,
